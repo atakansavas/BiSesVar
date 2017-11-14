@@ -1,11 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.atakansavas.bisesvar" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
     <name>BiSesVar</name>
     <description>
-        A blank PhoneGap app.
+       BiSesVar uygulaması, anlatmak istediğiniz düşünceleri veya hisleri daha eğlenceli bir biçimde ifade edebilmenize olanak sağlar. Uygulamadaki seslerin hiç biri uygulamaya ait değildir. Kaldırılmasını düşündüğünüz sesler için uygulama içinden iletişime geçebilirsiniz.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="a.savas@hotmail.com.tr" href="http://bisesvar.xyz">
+       Atakan Savaş
     </author>
     <content src="index.html" />
     <access origin="*" />
